@@ -135,25 +135,25 @@ body {
     font-size: 20px;
 }
 
-.membership__card h1 {
+.membership__card__heading {
     color: rgb(13, 101, 104);
 }
 
-.membership__card h1 sub {
+.membership__card__heading sub {
     font-size: 20px;
     vertical-align: 20%;
 }
 
-.membership__card h1 sup {
+.membership__card__heading sup {
     vertical-align: 55%;
     font-size: 50px;
 }
 
-.membership__card h1 span {
+.membership__card__heading span {
     font-size: 110px;
 }
 
-.membership__card p {
+.membership__card__paragraph {
     color: rgb(63, 63, 63);
     width: 50%;
     margin: 0 auto;
@@ -200,9 +200,12 @@ body {
 .how__it__works__text button {
     padding: 20px 30px;
     background-color: rgb(13, 101, 104);
+    color: white;
     font-size: 15px;
+    border: none;
     border-radius: 5px;
     margin: 25px 0;
+    cursor: pointer;
 }
 
 .how__it__works__text a {
@@ -224,7 +227,17 @@ body {
     transition: 0.1s ease-in-out;
 }
 
-.membership__card--background--color--change:hover {
+.membership__card--background--color--change {
     background-color: rgb(13, 101, 104);
-    transition: 0.2s ease-in-out;
+    transition: 0.1ease-in-out;
+}
+
+.membership__card--white--text {
+    color: white;
+    transition: all 0.7s ease;
+}
+
+.how__it__works__text button:hover {
+    background-color: rgb(18, 124, 128);
+    transition: 0.1s ease-in-out;
 }
