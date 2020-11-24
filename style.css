@@ -1,4 +1,3 @@
-
 /* Global Styles */
 * {
     margin: 0px;
@@ -85,6 +84,62 @@ body {
     background-color: rgb(255, 123, 0);
     color: white;
     border: none;
+}
+
+/*Services Section*/
+.services {
+    margin-top: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+    /* font-family: 'Noto Serif JP', serif; */
+}
+
+.heading {
+    text-align: center;
+}
+
+.animated_image_size>div {
+    float: left;
+    /* padding: fit-content;  */
+}
+
+.animated_image {
+    height: 300px;
+    width: 350px;
+}
+
+.cont {
+    height: 500px;
+    width: 350px;
+    padding: 20px;
+    line-height: 25px;
+}
+
+.our_service {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 15px;
+    background-color: rgb(13, 101, 104);
+    border: none;
+    border-radius: 5px;
+    /* width: 150px; */
+    text-align: center;
+    color: white;
+
+}
+
+.text_below_submit {
+    text-align: center;
+    margin: 30px;
+
 }
 
 /* Membership Section*/
@@ -241,55 +296,4 @@ body {
 .how__it__works__text button:hover {
     background-color: rgb(18, 124, 128);
     transition: 0.1s ease-in-out;
-}
-.container{
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
-    border: 1px solid black;
-    width: 100%;
-    /* font-family: 'Noto Serif JP', serif; */
-   
-}
-.heading{
-    text-align: center;
-}
-.animated_image_size>div{
-   float: left;  
-   /* padding: fit-content;  */
-   
-   
-}  
-.animated_image{
-    height: 300px;
-    width: 350px;
-    
-    
-    border: 1px solid black;
-}
-.cont{
-    height: 500px;
-    width: 350px;
-    padding: 20px;
-    border: 1px solid black;
-    line-height: 25px;
-}
-.our_service{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    font-size: 15px;
-    background-color: #4e9789;
-    border-radius: 5px;
-    /* width: 150px; */
-    text-align: center;
-    color: white;
-    
-}
-.text_below_submit{
-    text-align: center;
-    margin: 30px;
-
 }
