@@ -12,20 +12,20 @@ body {
 }
 
 /* Navigation bar style */
+
 .nav__bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 85%;
+    min-width: 100%;
     min-height: 10vh;
-    margin: auto;
-    padding: 15px 0 15px 0;
+    padding: 15px 7.5%;
     background-color: white;
     position: fixed;
     top: 0;
-    left: 7.5%;
     z-index: 1;
+    overflow: hidden;
 }
 
 .nav__left {
@@ -102,6 +102,8 @@ body {
 
 .heading {
     text-align: center;
+    font-size: 40px;
+    color: rgb(63, 63, 63);
 }
 
 .animated_image_size>div {
@@ -139,12 +141,16 @@ body {
 .text_below_submit {
     text-align: center;
     margin: 30px;
+}
 
+.text_below_submit a {
+    color: rgb(13, 101, 104);
 }
 
 /* Membership Section*/
 .membership {
     display: flex;
+    flex-wrap: wrap;
     width: 85%;
     height: fit-content;
     margin: 150px auto;
@@ -156,7 +162,8 @@ body {
 
 .membership__text,
 .membership__card {
-    flex: 1 1 50%;
+    min-width: 300px;
+    flex: 1 1 200px;
     padding: 30px 0px;
 }
 
@@ -218,6 +225,7 @@ body {
 /* How it works section*/
 .how__it__works {
     display: flex;
+    flex-wrap: wrap;
     width: 85%;
     margin: auto;
     padding: 80px 20px;
@@ -283,12 +291,14 @@ body {
 
 .location__container {
     display: flex;
+    flex-wrap: wrap;
     width: 85%;
     margin: auto;
 }
 
 .location__container__image {
     flex: 1 1 250px;
+    margin-right: 15px;
 }
 
 .location__container__image img {
@@ -297,6 +307,7 @@ body {
 
 .location__container__text {
     flex: 1 1 250px;
+    margin-left: 15px;
 }
 
 .location__container__text h3 {
@@ -360,14 +371,14 @@ body {
 
 .near__you__details>div input {
     margin: 10px 0;
-    height: 30px;
+    height: 35px;
     border: none;
     padding: 10px;
     border-radius: 5px;
 }
 
 .near__you__details>button {
-    height: 30px;
+    height: 35px;
     align-self: flex-end;
     width: 80px;
     margin: 10px 0;
@@ -376,7 +387,48 @@ body {
     font-size: 14px;
     color: rgb(13, 101, 104);
     border-radius: 5px;
+    cursor: pointer;
 }
+
+/* bright days section */
+.brighter__days {
+    width: 85%;
+    margin: auto;
+}
+
+.brighter__days h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(63, 63, 63);
+    margin-bottom: 20px;
+}
+
+.brighter__days__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    margin-bottom: 70px;
+}
+
+.brighter__days__cards img {
+    width: 280px;
+    height: 280px;
+}
+
+.brighter__days p {
+    color: rgb(92, 92, 92);
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.brighter__days p a {
+    color: rgb(13, 101, 104);
+}
+
+
 
 /* animations */
 .nav__links--to--skyblue--color:hover {
