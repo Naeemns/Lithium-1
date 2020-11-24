@@ -270,6 +270,10 @@ body {
 }
 
 /* Location section */
+.location {
+    margin-bottom: 50px;
+}
+
 .location h1 {
     text-align: center;
     margin: 30px;
@@ -302,7 +306,7 @@ body {
 }
 
 .location__container__text p {
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(92, 92, 92);
     margin: 20px 0;
 }
@@ -321,6 +325,57 @@ body {
 
 .location__container__text h4 a {
     color: rgb(13, 101, 104);
+}
+
+/* near you section */
+.near__you {
+    width: 100%;
+    background-color: rgb(13, 101, 104);
+    padding: 50px;
+    color: white;
+    margin: 100px 0;
+}
+
+.near__you__text {
+    width: 480px;
+    margin: 20px auto;
+}
+
+.near__you__text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.near__you__text p {
+    font-size: 14px;
+}
+
+.near__you__details {
+    display: flex;
+    width: 480px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.near__you__details>div input {
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.near__you__details>button {
+    height: 30px;
+    align-self: flex-end;
+    width: 80px;
+    margin: 10px 0;
+    border: none;
+    background-color: white;
+    font-size: 14px;
+    color: rgb(13, 101, 104);
+    border-radius: 5px;
 }
 
 /* animations */
