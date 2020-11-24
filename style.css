@@ -511,3 +511,22 @@ body {
     background-color: rgb(18, 124, 128);
     transition: 0.1s ease-in-out;
 }
+
+/* .section_4_________________section4 */
+.url_image{
+    margin-left: 150px;
+   display: flex;
+}
+.company_name{
+  margin: 40px;
+}
+.text_under_url_image{
+    width: 1000px;
+    font-size: 40px;
+    margin-left: 300px;
+    color: rgb(18, 124, 128);
+}
+.Brightline_Member{
+    margin-left: 300px;
+
+}
