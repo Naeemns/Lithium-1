@@ -92,36 +92,41 @@ body {
 }
 
 /* section1 ________________________CSS */
-.section_1{
+.section_1 {
     /* border: 1px solid black; */
     margin-top: 150px;
 }
-.top_heading{
+
+.top_heading {
     /* border: 1px solid black; */
     height: 400px;
     width: 550px;
     float: left;
     margin-left: 100px;
-   ;
+    ;
 }
-.section_1_image{
+
+.section_1_image {
     height: 400px;
     width: 600px;
     /* background-color: black; */
     margin-left: 150px;
 }
-.heading_size{
+
+.heading_size {
     font-size: 40px;
 
     margin-bottom: 40px;
     color: rgb(13, 101, 104);
 
 }
-.sub_heading{
+
+.sub_heading {
     font-size: 25px;
     color: rgb(92, 92, 92);
 }
-.get_started{
+
+.get_started {
     padding: 20px;
     border-radius: 5px;
     width: 150px;
@@ -131,7 +136,8 @@ body {
     margin-top: 30px;
     border: none;
 }
-.below_sub_heading{
+
+.below_sub_heading {
     margin-left: 100px;
     margin-top: 50px;
 }
@@ -147,7 +153,7 @@ body {
     width: 100%;
     color: rgb(92, 92, 92);
     font-size: 14px;
-    
+
     /* font-family: 'Noto Serif JP', serif; */
 }
 
@@ -173,9 +179,10 @@ body {
     padding: 20px;
     line-height: 25px;
 }
-.cont_text{
+
+.cont_text {
     margin-top: 20px;
-   
+
 }
 
 .our_service {
@@ -333,6 +340,32 @@ body {
     color: white;
 }
 
+/* .section_4_________________section4 */
+.url_image {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.company_name {
+    margin: 40px;
+}
+
+.company_name img {
+    width: 200px;
+}
+
+.text_under_url_image {
+    width: 1000px;
+    font-size: 40px;
+    margin-left: 300px;
+    color: rgb(18, 124, 128);
+}
+
+.Brightline_Member {
+    margin: 40px 0 70px 300px;
+}
+
 /* Location section */
 .location {
     margin-bottom: 50px;
@@ -484,7 +517,112 @@ body {
     color: rgb(13, 101, 104);
 }
 
+/* footer section */
+footer {
+    width: 100%;
+    background-color: rgb(35, 36, 56);
+    padding: 70px;
+    display: flex;
+    color: white;
+}
 
+.footer__left {
+    width: 200px;
+    flex: 2 1 300px;
+    padding-top: 30px;
+}
+
+.footer__left__form form {
+    margin-left: 30px;
+    line-height: 35px;
+}
+
+.footer__left__form form input {
+    width: 500px;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.form__submit__button {
+    padding: 10px 18px;
+    border: none;
+    color: white;
+    background-color: rgb(13, 101, 104);
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.footer__left__bottom {
+    margin: 30px 0;
+}
+
+.footer__social__links a img {
+    width: 20px;
+    margin: 10px 20px 30px 0;
+}
+
+.footer__info p {
+    font-size: 17px;
+    line-height: 30px;
+    margin: 10px 10px 30px 0;
+    color: rgb(226, 226, 226);
+}
+
+.footer__services__info p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px 10px 20px 0;
+    font-family: 'Tinos',
+        serif;
+    color: rgb(226, 226, 226);
+}
+
+.footer__services__info h4 a {
+    color: white;
+    font-weight: 300;
+}
+
+.footer__right {
+    flex: 1 1 150px;
+    margin: 0 30px;
+}
+
+.footer__logo img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer__links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our__care__links,
+.about__links,
+.partner__links,
+.get__in__touch__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.our__care__links>a,
+.about__links>a,
+.partner__links>a,
+.get__in__touch__links>a {
+    color: white;
+    margin: 3px 0;
+    font-size: 13px;
+}
+
+.our__care {
+    margin-bottom: 40px;
+}
+
+.partner {
+    margin-bottom: 20px;
+}
 
 /* animations */
 .nav__links--to--skyblue--color:hover {
@@ -510,23 +648,4 @@ body {
 .how__it__works__text button:hover {
     background-color: rgb(18, 124, 128);
     transition: 0.1s ease-in-out;
-}
-
-/* .section_4_________________section4 */
-.url_image{
-    margin-left: 150px;
-   display: flex;
-}
-.company_name{
-  margin: 40px;
-}
-.text_under_url_image{
-    width: 1000px;
-    font-size: 40px;
-    margin-left: 300px;
-    color: rgb(18, 124, 128);
-}
-.Brightline_Member{
-    margin-left: 300px;
-
 }
