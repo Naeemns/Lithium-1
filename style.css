@@ -269,10 +269,61 @@ body {
     color: white;
 }
 
+/* Location section */
+.location h1 {
+    text-align: center;
+    margin: 30px;
+    color: rgb(13, 101, 104);
+    font-size: 40px;
+}
 
+.location__container {
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
 
+.location__container__image {
+    flex: 1 1 250px;
+}
 
-/* Nav animations */
+.location__container__image img {
+    width: 510px;
+}
+
+.location__container__text {
+    flex: 1 1 250px;
+}
+
+.location__container__text h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: rgb(63, 63, 63);
+}
+
+.location__container__text p {
+    font-size: 18px;
+    color: rgb(92, 92, 92);
+    margin: 20px 0;
+}
+
+.location__container__text button {
+    padding: 25px 45px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.location__container__text h4 {
+    color: rgb(63, 63, 63);
+    font-size: 16px;
+}
+
+.location__container__text h4 a {
+    color: rgb(13, 101, 104);
+}
+
+/* animations */
 .nav__links--to--skyblue--color:hover {
     color: rgb(17, 133, 228);
     transition: 0.1s ease-in-out;
