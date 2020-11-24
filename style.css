@@ -326,10 +326,116 @@ body {
     color: white;
 }
 
+/* Location section */
+.location {
+    margin-bottom: 50px;
+}
 
+.location h1 {
+    text-align: center;
+    margin: 30px;
+    color: rgb(13, 101, 104);
+    font-size: 40px;
+}
 
+.location__container {
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
 
-/* Nav animations */
+.location__container__image {
+    flex: 1 1 250px;
+}
+
+.location__container__image img {
+    width: 510px;
+}
+
+.location__container__text {
+    flex: 1 1 250px;
+}
+
+.location__container__text h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: rgb(63, 63, 63);
+}
+
+.location__container__text p {
+    font-size: 16px;
+    color: rgb(92, 92, 92);
+    margin: 20px 0;
+}
+
+.location__container__text button {
+    padding: 25px 45px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.location__container__text h4 {
+    color: rgb(63, 63, 63);
+    font-size: 16px;
+}
+
+.location__container__text h4 a {
+    color: rgb(13, 101, 104);
+}
+
+/* near you section */
+.near__you {
+    width: 100%;
+    background-color: rgb(13, 101, 104);
+    padding: 50px;
+    color: white;
+    margin: 100px 0;
+}
+
+.near__you__text {
+    width: 480px;
+    margin: 20px auto;
+}
+
+.near__you__text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.near__you__text p {
+    font-size: 14px;
+}
+
+.near__you__details {
+    display: flex;
+    width: 480px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.near__you__details>div input {
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.near__you__details>button {
+    height: 30px;
+    align-self: flex-end;
+    width: 80px;
+    margin: 10px 0;
+    border: none;
+    background-color: white;
+    font-size: 14px;
+    color: rgb(13, 101, 104);
+    border-radius: 5px;
+}
+
+/* animations */
 .nav__links--to--skyblue--color:hover {
     color: rgb(17, 133, 228);
     transition: 0.1s ease-in-out;
