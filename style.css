@@ -567,12 +567,47 @@ body {
     background-color: rgb(18, 124, 128);
     width: 130px;
     margin:30px 0px 30px 700px;
-   
-    
     border: none;
     color: white;
-   
     border-radius: 5px;
+}
+   
+   /* section_6_______________section_6  */
+   
+.section_6_heading{
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 0px;
+}
+.section_6_container{
+margin: 50px 100px;
+}
+.section_6_text{
+    
+    height: 150px;
+    width: 200px;
+    float: left;
+    margin: 100px ;
+}
+.section_6_button {
+    padding: 20px;
+    height: 60px;
+    width: 130px;
+    color: white;
+    border: none;
+    background-color:orangered;
+    border-radius: 5px;
+
+}
+#section_6_light{
+    margin-top: 10px;
+}
+.section_6_text img {
+    width: 300px;
+    height: 200px;
+}
+
+   
+
    
     
-}
