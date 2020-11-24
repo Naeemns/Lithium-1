@@ -91,12 +91,63 @@ body {
     margin-top: 150px;
 }
 
+/* section1 ________________________CSS */
+.section_1{
+    /* border: 1px solid black; */
+    margin-top: 150px;
+}
+.top_heading{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 550px;
+    float: left;
+    margin-left: 100px;
+   ;
+}
+.section_1_image{
+    height: 400px;
+    width: 600px;
+    /* background-color: black; */
+    margin-left: 150px;
+}
+.heading_size{
+    font-size: 40px;
+
+    margin-bottom: 40px;
+    color: rgb(13, 101, 104);
+
+}
+.sub_heading{
+    font-size: 25px;
+    color: rgb(92, 92, 92);
+}
+.get_started{
+    padding: 20px;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 15px;
+    color: white;
+    background-color: orangered;
+    margin-top: 30px;
+    border: none;
+}
+.below_sub_heading{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+/* section1 ________________________CSS */
+
 .container {
     display: flex;
     justify-content: center;
     height: 100%;
     align-items: center;
     width: 100%;
+    color: rgb(92, 92, 92);
+    font-size: 14px;
+    
     /* font-family: 'Noto Serif JP', serif; */
 }
 
@@ -122,6 +173,10 @@ body {
     padding: 20px;
     line-height: 25px;
 }
+.cont_text{
+    margin-top: 20px;
+   
+}
 
 .our_service {
     display: flex;
@@ -146,6 +201,7 @@ body {
 .text_below_submit a {
     color: rgb(13, 101, 104);
 }
+
 
 /* Membership Section*/
 .membership {
