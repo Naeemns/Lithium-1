@@ -1,3 +1,247 @@
+
+/* Global Styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins',
+        sans-serif;
+    position: relative;
+}
+
+/* Navigation bar style */
+.nav__bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85%;
+    min-height: 10vh;
+    margin: auto;
+    padding: 15px 0 15px 0;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 7.5%;
+    z-index: 1;
+}
+
+.nav__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 2 1 30px;
+}
+
+#logo {
+    flex: 1 1 0px;
+}
+
+#logo img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.nav__links {
+    flex: 2 1 50px;
+}
+
+.nav__links ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav__links>ul a {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+.nav__buttons {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 200px;
+}
+
+.nav__buttons button {
+    font-size: 15px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login {
+    background-color: white;
+    color: rgb(255, 123, 0);
+    border: 1px solid rgb(255, 123, 0);
+    margin-right: 8px;
+}
+
+.join {
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border: none;
+}
+
+/* Membership Section*/
+.membership {
+    display: flex;
+    width: 85%;
+    height: fit-content;
+    margin: 150px auto;
+}
+
+.membership__text {
+    margin-right: 20px;
+}
+
+.membership__text,
+.membership__card {
+    flex: 1 1 50%;
+    padding: 30px 0px;
+}
+
+.membership__text h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: rgb(63, 63, 63);
+}
+
+.membership__text h5,
+.membership__text p {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.membership__text p {
+    color: rgb(63, 63, 63);
+}
+
+.membership__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(13, 101, 104);
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+
+.membership__card h3 {
+    font-size: 20px;
+}
+
+.membership__card__heading {
+    color: rgb(13, 101, 104);
+}
+
+.membership__card__heading sub {
+    font-size: 20px;
+    vertical-align: 20%;
+}
+
+.membership__card__heading sup {
+    vertical-align: 55%;
+    font-size: 50px;
+}
+
+.membership__card__heading span {
+    font-size: 110px;
+}
+
+.membership__card__paragraph {
+    color: rgb(63, 63, 63);
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* How it works section*/
+.how__it__works {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 80px 20px;
+}
+
+.how__it__works__image,
+.how__it__works__text {
+    flex: 1 1 50%;
+}
+
+.how__it__works__image img {
+    width: 500px;
+}
+
+.how__it__works__text {
+    padding: 20px;
+}
+
+.how__it__works__text h1 {
+    font-size: 40px;
+    color: rgb(63, 63, 63);
+}
+
+.how__it__works__text p {
+    margin-top: 20px;
+    color: rgb(92, 92, 92);
+}
+
+.how__it__works__text li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 16px;
+    color: rgb(92, 92, 92);
+}
+
+.how__it__works__text button {
+    padding: 20px 30px;
+    background-color: rgb(13, 101, 104);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+.how__it__works__text a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* Nav animations */
+.nav__links--to--skyblue--color:hover {
+    color: rgb(17, 133, 228);
+    transition: 0.1s ease-in-out;
+}
+
+.join__button--color--change:hover {
+    background-color: rgb(235, 117, 8);
+    transition: 0.1s ease-in-out;
+}
+
+.membership__card--background--color--change {
+    background-color: rgb(13, 101, 104);
+    transition: 0.1ease-in-out;
+}
+
+.membership__card--white--text {
+    color: white;
+    transition: all 0.7s ease;
+}
+
+.how__it__works__text button:hover {
+    background-color: rgb(18, 124, 128);
+    transition: 0.1s ease-in-out;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -47,4 +291,5 @@
 .text_below_submit{
     text-align: center;
     margin: 30px;
+
 }
