@@ -1,0 +1,110 @@
+/* background-color:rgb(87, 57, 119); */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.logo {
+    width: 100%;
+    background-color: white;
+    height: 10vh;
+}
+
+.logo img {
+    width: 200px;
+    margin-left: 500px;
+    margin-top: 15px;
+}
+
+.sign__up__page>div:nth-child(2) {
+    height: 90vh;
+    background-color: rgb(255, 236, 240);
+    border: 1px solid rgb(212, 207, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign__up__form {
+    margin: 30px 0;
+}
+
+.sign__up__form h1 {
+    margin-bottom: 20px;
+}
+
+.sign__up__form p {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.sign__up__inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.sign__up__inputs label {
+    color: rgb(41, 41, 41);
+}
+
+.sign__up__inputs input {
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 0 15px;
+}
+
+.sign__up__form a {
+    color: rgb(87, 57, 119);
+    text-decoration: none;
+}
+
+.sign__up__button {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.sign__up__button button {
+    background-color: rgb(87, 57, 119);
+    color: white;
+    font-size: 16px;
+    padding: 12px 70px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.sign__up__page__bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 316px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgb(180, 180, 180);
+}
+
+.bottom__image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+}
+
+.bottom__image img {
+    position: absolute;
+    left: 28%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bottom__text {
+    font-size: 13px;
+}
