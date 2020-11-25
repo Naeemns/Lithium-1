@@ -108,6 +108,7 @@
 .section_1_text_below_submit a {
     color: rgb(13, 101, 104);
 }
+
 .section_1_text_below_submit {
     margin: 10px 0 50px 100px;
 }
@@ -171,12 +172,13 @@
 
 
 /* <section3------------------------------- section3 */
-.section_3_heading{
+.section_3_heading {
     font-size: 40px;
     margin: 50px 0px 50px 100px;
     color: rgb(13, 101, 104);
 }
-.section_3_below_heading{
+
+.section_3_below_heading {
     height: 100px;
     width: 800px;
     margin-left: 100px;
@@ -184,30 +186,35 @@
     color: rgb(92, 92, 92);
     /* border: 1px solid black; */
 }
-.section_3_image{
+
+.section_3_image {
     height: 350px;
     width: 550px;
     margin-right: 100px;
 }
-.section_3_container{
+
+.section_3_container {
     display: flex;
     flex-direction: row;
     height: 700px;
     width: 1500px;
     /* border: 1px solid black; */
 }
-.section_3_cont{
+
+.section_3_cont {
     height: 600px;
     width: 550px;
     /* border: 1px solid black; */
     margin: 10px 100px;
 }
-    .section_3_text_above_image{
-        margin: 20px 0px;
-        font-size: 20px;
-        color: rgb(13, 101, 104);
-    }
-.section_3_text_below_image{
+
+.section_3_text_above_image {
+    margin: 20px 0px;
+    font-size: 20px;
+    color: rgb(13, 101, 104);
+}
+
+.section_3_text_below_image {
     margin: 20px 0px;
     color: rgb(92, 92, 92);
     line-height: 30px;
@@ -216,7 +223,8 @@
 /* how it works section */
 .how__it__works {
     width: 70%;
-    margin: 130px auto;
+    margin: 10px auto;
+    padding: 10px;
 }
 
 .how__it__works h1 {
@@ -304,7 +312,7 @@
 }
 
 .how__it__works__button {
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
 }
 
 .how__it__works__button a {
@@ -314,7 +322,6 @@
     text-decoration: none;
     cursor: pointer;
 }
-
 /* section5--------------------------- section5 */
 .Why_parents_love_Brightline{
     color: rgb(13, 101, 104);
@@ -349,7 +356,23 @@
     margin-left: 180px;
 }
 
+/* benefits section */
+.benefits__cards__top,
+.benefits__cards__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    height: fit-content;
+    margin: 150px auto 80px auto;
+}
 
-
-
+.benefits__cards__bottom {
+    margin-top: 30px;
+}
+.benefits>h1 {
+    margin: 0;
+    margin-left: 9%;
+    font-size: 25px;
+    color: rgb(92, 92, 92);
+}
 
