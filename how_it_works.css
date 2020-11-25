@@ -382,6 +382,85 @@
     color: rgb(92, 92, 92);
 }
 
+/* questions section */
+.questions {
+    width: 85%;
+    margin: 150px auto;
+}
+
+.questions h1 {
+    font-size: 38px;
+    color: rgb(39, 39, 39);
+    margin-bottom: 20px;
+}
+
+.questions__text {
+    display: flex;
+    justify-items: center;
+    margin: 70px 0;
+}
+
+.questions__text>div {
+    padding: 20px 20px 20px 0;
+    margin-right: 20px;
+}
+
+.questions__text>div p:nth-child(1) {
+    font-size: 23px;
+    color: rgb(39, 39, 39);
+    margin-bottom: 20px;
+}
+
+.questions__text>div p:nth-child(2) {
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(92, 92, 92);
+}
+
+/* get ready section  */
+.get__ready {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.get__ready__text {
+    flex: 1 1 400px;
+}
+
+.get__ready__text h6 {
+    color: rgb(13, 101, 104);
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.get__ready__text p {
+    font-size: 22px;
+    margin-bottom: 35px;
+    color: rgb(92, 92, 92);
+}
+
+.get__ready__button {
+    margin-top: 50px;
+}
+
+.get__ready__button a {
+    padding: 23px 33px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.get__ready__image {
+    flex: 1 1 400px;
+}
+
+.get__ready__image img {
+    width: 650px;
+}
+
 /* teens section */
 
 .teens {
