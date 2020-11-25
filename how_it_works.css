@@ -230,29 +230,60 @@ body {
 
 .section_2_join_now {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin:100px auto;
     padding: 25px;
     font-size: 15px;
     background-color: rgb(255, 123, 0);
     border: none;
     border-radius: 5px;
-    /* width: 150px; */
     text-align: center;
     color: white;
     cursor: pointer;
 }
-
-.section_2_text_below_submit {
-    text-align: center;
-    margin: 30px;
-}
-
-.section_2_text_below_submit a {
+/* <section3------------------------------- section3 */
+.section_3_heading{
+    font-size: 40px;
+    margin: 50px 0px 50px 100px;
     color: rgb(13, 101, 104);
 }
-    
-    
+.section_3_below_heading{
+    height: 100px;
+    width: 800px;
+    margin-left: 100px;
+    line-height: 30px;
+    color: rgb(92, 92, 92);
+    /* border: 1px solid black; */
+}
+.section_3_image{
+    height: 350px;
+    width: 550px;
+    margin-right: 100px;
+
+}
+.section_3_container{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 1500px;
+    /* border: 1px solid black; */
+}
+.section_3_cont{
+    height: 600px;
+    width: 550px;
+    /* border: 1px solid black; */
+    margin: 10px 100px;
+}
+    .section_3_text_above_image{
+        margin: 20px 0px;
+        font-size: 20px;
+        color: rgb(13, 101, 104);
+    }
+.section_3_text_below_image{
+    margin: 20px 0px;
+    color: rgb(92, 92, 92);
+    line-height: 30px;
+}
+
 
 
 
