@@ -315,11 +315,41 @@
     cursor: pointer;
 }
 
+/* section5--------------------------- section5 */
+.Why_parents_love_Brightline{
+    color: rgb(13, 101, 104);
+    margin: 100px 0px 50px 150px;
+    font-size: 10px;
+}
+.section_5_container{
+    display: flex;
+    height: 350px;
+    width: 1300px;
+    /* border: 1px solid black; */
+    margin-left: 150px;
+}
+.section_5_text{
+    height: 400px;
+    width: 700px;
+    /* border: 1px solid black; */
+    font-size: 40px;
+    color: rgb(13, 101, 104);
+    margin-right: 30px;
+}
+.section_5_brightline_member{
+    display: flex;
+    font-size: 15px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.section_5_brightline_member_space_1{
+    margin-right: 300px;
+}
+.section_5_brightline_member_space_2{
+    margin-left: 180px;
+}
 
 
 
 
 
-
-
-/* animations */
