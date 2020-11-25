@@ -361,6 +361,16 @@
     margin-left: 180px;
 }
 
+/* benefits section */
+.benefits__cards__top,
+.benefits__cards__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    height: fit-content;
+    margin: 150px auto 80px auto;
+}
+
 .benefits__cards__bottom {
     margin-top: 30px;
 }
