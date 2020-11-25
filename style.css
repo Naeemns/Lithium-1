@@ -133,7 +133,7 @@ body {
     width: 150px;
     font-size: 15px;
     color: white;
-    background-color: orangered;
+    background-color: rgb(255, 123, 0);
     margin-top: 30px;
     border: none;
 }
@@ -591,6 +591,7 @@ body {
 .brighter__days__cards img {
     width: 280px;
     height: 280px;
+
 }
 
 .brighter__days p {
@@ -710,6 +711,19 @@ footer {
 .partner {
     margin-bottom: 20px;
 }
+
+.brighter__days p {
+    color: rgb(92, 92, 92);
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.brighter__days p a {
+    color: rgb(13, 101, 104);
+}
+
+
 
 /* animations */
 .nav__links--to--skyblue--color:hover {
