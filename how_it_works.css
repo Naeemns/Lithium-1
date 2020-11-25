@@ -105,6 +105,12 @@
     margin-top: 50px;
 }
 
+.section_1_text_below_submit a {
+    color: rgb(13, 101, 104);
+}
+.section_1_text_below_submit {
+    margin: 10px 0 50px 100px;
+}
 
 /* section1 ________________________CSS */
 
@@ -163,12 +169,48 @@
     text-decoration: none;
 }
 
-.section_1_text_below_submit {
-    margin: 10px 0 50px 100px;
-}
 
-.section_1_text_below_submit a {
+/* <section3------------------------------- section3 */
+.section_3_heading{
+    font-size: 40px;
+    margin: 50px 0px 50px 100px;
     color: rgb(13, 101, 104);
+}
+.section_3_below_heading{
+    height: 100px;
+    width: 800px;
+    margin-left: 100px;
+    line-height: 30px;
+    color: rgb(92, 92, 92);
+    /* border: 1px solid black; */
+}
+.section_3_image{
+    height: 350px;
+    width: 550px;
+    margin-right: 100px;
+}
+.section_3_container{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 1500px;
+    /* border: 1px solid black; */
+}
+.section_3_cont{
+    height: 600px;
+    width: 550px;
+    /* border: 1px solid black; */
+    margin: 10px 100px;
+}
+    .section_3_text_above_image{
+        margin: 20px 0px;
+        font-size: 20px;
+        color: rgb(13, 101, 104);
+    }
+.section_3_text_below_image{
+    margin: 20px 0px;
+    color: rgb(92, 92, 92);
+    line-height: 30px;
 }
 
 /* how it works section */
