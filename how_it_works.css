@@ -1,208 +1,325 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+/* section_1 _____________________________________section_1 */
 
-body {
-    font-family: 'Poppins',
-        sans-serif;
-    position: relative;
-}
 
-/* Navigation bar style */
-
-.nav__bar {
+.section_1_container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    min-width: 100%;
-    min-height: 10vh;
-    padding: 15px 7.5%;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    overflow: hidden;
+    flex-direction: row;
+    height: 450px;
+    width: 1500px;
+    margin-top: 150px;
+    margin-left: 100px;
 }
 
-.nav__left {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    flex: 2 1 30px;
+.section_1_cont {
+    height: 400px;
+    width: 600px;
+
 }
 
-#logo {
-    flex: 1 1 0px;
+.section_1_image img {
+    height: 400px;
+    width: 300px;
+    margin-left: 100px;
 }
 
-#logo img {
-    width: 200px;
-    cursor: pointer;
-}
-
-.nav__links {
-    flex: 2 1 50px;
-}
-
-.nav__links ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-
-.nav__links>ul a {
-    text-decoration: none;
-    color: rgb(92, 92, 92);
-}
-
-.nav__buttons {
-    display: flex;
-    justify-content: flex-end;
-    flex: 1 1 200px;
-}
-
-.nav__buttons button {
-    font-size: 15px;
-    padding: 15px 30px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.login {
-    background-color: white;
-    color: rgb(255, 123, 0);
-    border: 1px solid rgb(255, 123, 0);
-    margin-right: 8px;
-}
-
-.join {
-    background-color: rgb(255, 123, 0);
-    color: white;
-    border: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer section */
-footer {
-    width: 100%;
-    background-color: rgb(35, 36, 56);
-    padding: 70px;
-    display: flex;
-    color: white;
-}
-
-.footer__left {
-    width: 200px;
-    flex: 2 1 300px;
-    padding-top: 30px;
-}
-
-.footer__left__form form {
-    margin-left: 30px;
-    line-height: 35px;
-}
-
-.footer__left__form form input {
-    width: 500px;
-    padding: 10px;
-    margin: 15px 0;
-}
-
-.form__submit__button {
-    padding: 10px 18px;
-    border: none;
-    color: white;
-    background-color: rgb(13, 101, 104);
-    font-size: 16px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-.footer__left__bottom {
-    margin: 30px 0;
-}
-
-.footer__social__links a img {
-    width: 20px;
-    margin: 10px 20px 30px 0;
-}
-
-.footer__info p {
-    font-size: 17px;
-    line-height: 30px;
-    margin: 10px 10px 30px 0;
-    color: rgb(226, 226, 226);
-}
-
-.footer__services__info p {
-    font-size: 16px;
-    line-height: 20px;
-    margin: 10px 10px 20px 0;
-    font-family: 'Tinos',
-        serif;
-    color: rgb(226, 226, 226);
-}
-
-.footer__services__info h4 a {
-    color: white;
-    font-weight: 300;
-}
-
-.footer__right {
-    flex: 1 1 150px;
-    margin: 0 30px;
-}
-
-.footer__logo img {
-    width: 200px;
-    margin-bottom: 20px;
-}
-
-.footer__links {
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.our__care__links,
-.about__links,
-.partner__links,
-.get__in__touch__links {
-    display: flex;
-    flex-direction: column;
-}
-
-.our__care__links>a,
-.about__links>a,
-.partner__links>a,
-.get__in__touch__links>a {
-    color: white;
-    margin: 3px 0;
-    font-size: 13px;
-}
-
-.our__care {
+.section_1_heading {
+    font-size: 40px;
+    margin-top: 20px;
+    color: rgb(13, 101, 104);
     margin-bottom: 40px;
 }
 
-.partner {
-    margin-bottom: 20px;
+.section_1_sub_heading {
+    font-size: 25px;
+    color: rgb(92, 92, 92);
+    margin-bottom: 60px;
 }
+
+.section_1_button {
+    padding: 20px;
+    width: 150px;
+    background-color: rgb(255, 123, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.section_1_text {
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+
+/* section2--------------------------------section2 */
+.services {
+    margin-top: 150px;
+}
+
+/* section1 ________________________CSS */
+.section_1 {
+    /* border: 1px solid black; */
+    margin-top: 150px;
+}
+
+.top_heading {
+    height: 400px;
+    width: 550px;
+    float: left;
+    margin-left: 100px;
+    ;
+}
+
+.section_1_image {
+    height: 400px;
+    width: 600px;
+    margin-left: 150px;
+}
+
+.heading_size {
+    font-size: 40px;
+
+    margin-bottom: 40px;
+    color: rgb(13, 101, 104);
+
+}
+
+.sub_heading {
+    font-size: 25px;
+    color: rgb(92, 92, 92);
+}
+
+.get_started {
+    padding: 20px;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(255, 123, 0);
+    margin-top: 30px;
+    border: none;
+}
+
+.below_sub_heading {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.section_1_text_below_submit a {
+    color: rgb(13, 101, 104);
+}
+.section_1_text_below_submit {
+    margin: 10px 0 50px 100px;
+}
+
+/* section1 ________________________CSS */
+
+.section_2_container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+    color: rgb(92, 92, 92);
+    font-size: 14px;
+    /* border: 1px solid black; */
+}
+
+.section_2_heading {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(13, 101, 104);
+}
+
+.section_2_animated_image_size>div {
+    float: left;
+}
+
+.section_2_animated_image {
+    height: 300px;
+    width: 370px;
+    /* border: 1px solid black; */
+}
+
+.section_2_cont {
+    height: 500px;
+    width: 450px;
+    padding: 20px;
+    line-height: 25px;
+    /* border: 1px solid black; */
+}
+
+.section_2_cont_text {
+    margin-top: 20px;
+}
+
+.section_2_join_now {
+    text-align: center;
+}
+
+.section_2_join_now a {
+    width: 150px;
+    padding: 25px;
+    font-size: 15px;
+    background-color: rgb(255, 123, 0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* <section3------------------------------- section3 */
+.section_3_heading{
+    font-size: 40px;
+    margin: 50px 0px 50px 100px;
+    color: rgb(13, 101, 104);
+}
+.section_3_below_heading{
+    height: 100px;
+    width: 800px;
+    margin-left: 100px;
+    line-height: 30px;
+    color: rgb(92, 92, 92);
+    /* border: 1px solid black; */
+}
+.section_3_image{
+    height: 350px;
+    width: 550px;
+    margin-right: 100px;
+}
+.section_3_container{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 1500px;
+    /* border: 1px solid black; */
+}
+.section_3_cont{
+    height: 600px;
+    width: 550px;
+    /* border: 1px solid black; */
+    margin: 10px 100px;
+}
+    .section_3_text_above_image{
+        margin: 20px 0px;
+        font-size: 20px;
+        color: rgb(13, 101, 104);
+    }
+.section_3_text_below_image{
+    margin: 20px 0px;
+    color: rgb(92, 92, 92);
+    line-height: 30px;
+}
+
+/* how it works section */
+.how__it__works {
+    width: 70%;
+    margin: 130px auto;
+}
+
+.how__it__works h1 {
+    font-size: 40px;
+    color: rgb(13, 101, 104);
+    margin-bottom: 15px;
+}
+
+.how__it__works__text {
+    display: flex;
+    justify-content: center;
+}
+
+.how__it__works__text>div>div {
+    margin: 20px;
+}
+
+.how__it__works__text__left {
+    text-align: right;
+}
+
+.how__it__works__text__left>div,
+.how__it__works__text__right>div {
+    height: 200px;
+    width: 400px;
+}
+
+.how__it__works__text__middle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.middle__line {
+    height: 1200px;
+    width: 1px;
+    background-color: rgb(187, 187, 187);
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 2px solid rgb(187, 187, 187);
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.circle-1 {
+    top: 0;
+}
+
+.circle-2 {
+    top: 350px;
+}
+
+.circle-3 {
+    top: 550px;
+}
+
+.circle-4 {
+    top: 800px;
+}
+
+.circle-5 {
+    bottom: 0;
+}
+
+.how__it__works__text>div>div h5 {
+    color: rgb(70, 70, 70);
+    margin-bottom: 20px;
+    animation: leftToRight 0.5s 1s 1;
+}
+
+
+.how__it__works__text>div>div h2 {
+    font-size: 25px;
+    margin-bottom: 22px;
+    color: rgb(39, 39, 39);
+}
+
+.how__it__works__text>div>div p {
+    font-size: 18px;
+    color: rgb(92, 92, 92);
+}
+
+.how__it__works__button {
+    margin: 50px auto;
+}
+
+.how__it__works__button a {
+    font-size: 15px;
+    padding: 25px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* animations */
