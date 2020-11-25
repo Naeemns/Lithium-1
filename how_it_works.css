@@ -322,20 +322,23 @@
     text-decoration: none;
     cursor: pointer;
 }
+
 /* section5--------------------------- section5 */
-.Why_parents_love_Brightline{
+.Why_parents_love_Brightline {
     color: rgb(13, 101, 104);
     margin: 100px 0px 50px 150px;
     font-size: 10px;
 }
-.section_5_container{
+
+.section_5_container {
     display: flex;
     height: 350px;
     width: 1300px;
     /* border: 1px solid black; */
     margin-left: 150px;
 }
-.section_5_text{
+
+.section_5_text {
     height: 400px;
     width: 700px;
     /* border: 1px solid black; */
@@ -343,16 +346,19 @@
     color: rgb(13, 101, 104);
     margin-right: 30px;
 }
-.section_5_brightline_member{
+
+.section_5_brightline_member {
     display: flex;
     font-size: 15px;
     margin-left: 150px;
     margin-bottom: 100px;
 }
-.section_5_brightline_member_space_1{
+
+.section_5_brightline_member_space_1 {
     margin-right: 300px;
 }
-.section_5_brightline_member_space_2{
+
+.section_5_brightline_member_space_2 {
     margin-left: 180px;
 }
 
@@ -369,6 +375,7 @@
 .benefits__cards__bottom {
     margin-top: 30px;
 }
+
 .benefits>h1 {
     margin: 0;
     margin-left: 9%;
@@ -376,3 +383,53 @@
     color: rgb(92, 92, 92);
 }
 
+.teens {
+    width: 100%;
+    background-color: rgb(13, 101, 104);
+    padding: 50px;
+    color: white;
+    margin-top: 100px;
+}
+
+.teens__text {
+    width: 650px;
+    margin: 20px auto;
+}
+
+.teens__text h2 {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.teens__text p {
+    font-size: 13px;
+}
+
+.teens__details {
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.teens__details>div input {
+    margin: 10px 0;
+    height: 35px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.teens__details>button {
+    height: 35px;
+    align-self: flex-end;
+    width: 80px;
+    margin: 10px 0;
+    border: none;
+    background-color: white;
+    font-size: 14px;
+    color: rgb(13, 101, 104);
+    border-radius: 5px;
+    cursor: pointer;
+}
