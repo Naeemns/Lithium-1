@@ -1,6 +1,4 @@
 /* section_1 _____________________________________section_1 */
-
-
 .section_1_container {
     display: flex;
     flex-direction: row;
@@ -13,7 +11,6 @@
 .section_1_cont {
     height: 400px;
     width: 600px;
-
 }
 
 .section_1_image img {
@@ -51,14 +48,7 @@
     margin-bottom: 150px;
 }
 
-/* section2--------------------------------section2 */
-.services {
-    margin-top: 150px;
-}
-
-/* section1 ________________________CSS */
 .section_1 {
-    /* border: 1px solid black; */
     margin-top: 150px;
 }
 
@@ -67,7 +57,6 @@
     width: 550px;
     float: left;
     margin-left: 100px;
-    ;
 }
 
 .section_1_image {
@@ -78,10 +67,8 @@
 
 .heading_size {
     font-size: 40px;
-
     margin-bottom: 40px;
     color: rgb(13, 101, 104);
-
 }
 
 .sub_heading {
@@ -113,8 +100,7 @@
     margin: 10px 0 50px 100px;
 }
 
-/* section1 ________________________CSS */
-
+/* section2 ________________________CSS */
 .section_2_container {
     display: flex;
     justify-content: center;
@@ -123,7 +109,6 @@
     width: 100%;
     color: rgb(92, 92, 92);
     font-size: 14px;
-    /* border: 1px solid black; */
 }
 
 .section_2_heading {
@@ -139,7 +124,6 @@
 .section_2_animated_image {
     height: 300px;
     width: 370px;
-    /* border: 1px solid black; */
 }
 
 .section_2_cont {
@@ -147,7 +131,6 @@
     width: 450px;
     padding: 20px;
     line-height: 25px;
-    /* border: 1px solid black; */
 }
 
 .section_2_cont_text {
@@ -170,7 +153,6 @@
     text-decoration: none;
 }
 
-
 /* <section3------------------------------- section3 */
 .section_3_heading {
     font-size: 40px;
@@ -184,7 +166,6 @@
     margin-left: 100px;
     line-height: 30px;
     color: rgb(92, 92, 92);
-    /* border: 1px solid black; */
 }
 
 .section_3_image {
@@ -198,13 +179,11 @@
     flex-direction: row;
     height: 700px;
     width: 1500px;
-    /* border: 1px solid black; */
 }
 
 .section_3_cont {
     height: 600px;
     width: 550px;
-    /* border: 1px solid black; */
     margin: 10px 100px;
 }
 
@@ -223,7 +202,8 @@
 /* how it works section */
 .how__it__works {
     width: 70%;
-    margin: 130px auto;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .how__it__works h1 {
@@ -333,14 +313,12 @@
     display: flex;
     height: 350px;
     width: 1300px;
-    /* border: 1px solid black; */
     margin-left: 150px;
 }
 
 .section_5_text {
     height: 400px;
     width: 700px;
-    /* border: 1px solid black; */
     font-size: 40px;
     color: rgb(13, 101, 104);
     margin-right: 30px;
@@ -462,7 +440,6 @@
 }
 
 /* teens section */
-
 .teens {
     width: 100%;
     background-color: rgb(13, 101, 104);
