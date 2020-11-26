@@ -33,11 +33,11 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    flex: 2 1 30px;
+    flex: 2 1 250px;
 }
 
 #logo {
-    flex: 1 1 0px;
+    flex: 1 1 50px;
 }
 
 #logo img {
@@ -46,24 +46,34 @@ body {
 }
 
 .nav__links {
-    flex: 2 1 50px;
+    flex: 3 1 100px;
 }
 
 .nav__links ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
 }
+
+/* .nav__links li {
+    position: relative;
+    float: left;
+} */
 
 .nav__links>ul a {
     text-decoration: none;
     color: rgb(92, 92, 92);
+    font-size: 15px;
+}
+
+.drop-down {
+    display: none;
 }
 
 .nav__buttons {
     display: flex;
     justify-content: flex-end;
-    flex: 1 1 200px;
+    flex: 1 1 100px;
 }
 
 .nav__buttons a {
@@ -729,6 +739,22 @@ footer {
 .nav__links--to--skyblue--color:hover {
     color: rgb(17, 133, 228);
     transition: 0.1s ease-in-out;
+}
+
+.nav-links ul li:hover .drop-down {
+    display: block;
+    /* position: absolute; */
+    background-color: white;
+    margin-top: 10px;
+}
+
+.nav-links ul li:hover .drop-down ul {
+    display: block;
+}
+
+.nav-links ul li:hover .drop-down ul li {
+    width: 150px;
+    padding: 10px;
 }
 
 .join__button--color--change:hover {
