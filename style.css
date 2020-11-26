@@ -24,7 +24,6 @@ body {
     position: fixed;
     top: 0;
     z-index: 1;
-    overflow: hidden;
 }
 
 .nav__left {
@@ -32,11 +31,11 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    flex: 2 1 30px;
+    flex: 2 1 250px;
 }
 
 #logo {
-    flex: 1 1 0px;
+    flex: 1 1 50px;
 }
 
 #logo img {
@@ -45,27 +44,65 @@ body {
 }
 
 .nav__links {
-    flex: 2 1 50px;
+    flex: 2 1 150px;
     margin: 0 10px;
 }
 
 .nav__links ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
-    margin: 0 5px;
+}
+
+/* .nav-links ul li {
+    position: relative;
+} */
+
+
+/* .nav__links li {
+    position: relative;
+    float: left;
+} */
+
+.drop-down-list {
+    position: relative;
 }
 
 .nav__links>ul a {
     text-decoration: none;
     color: rgb(92, 92, 92);
+    font-size: 15px;
+}
+
+.drop-down {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    width: 200px;
+    height: 65px;
+    z-index: 2;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+.drop-down ul {
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+
+.drop-down li a {
+    color: rgb(92, 92, 92);
+    margin: 5px;
 }
 
 .nav__buttons {
     display: flex;
     justify-content: flex-end;
-    flex: 1 1 200px;
+    flex: 1 1 100px;
 }
 
 .nav__buttons a {
@@ -727,6 +764,14 @@ footer {
     color: rgb(17, 133, 228);
     transition: 0.1s ease-in-out;
 }
+
+.drop-down-list:hover .drop-down {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0px);
+}
+
+
 
 .join__button--color--change:hover {
     background-color: rgb(235, 117, 8);
