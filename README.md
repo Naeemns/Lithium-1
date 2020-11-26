@@ -1,7 +1,7 @@
 # Lithium
 TITANS_LITHIUM_ UNIT_1_ PROJECT
 
-**Project Title
+**Project Title: 
 Brightline
 
 **Some screen shots of our project
@@ -10,11 +10,11 @@ Brightline
 ![](images/how_it_works_page.png)
         How it works page
 
-**Motivation
+**Motivation: 
 We have been given to replicate the website Brightline.This is our first project and we were very excited to do this project.
 we learned a lot new things during this project. 
 
-**Tech used
+**Tech used: 
 HTML, CSS and JavaScript
 
 
