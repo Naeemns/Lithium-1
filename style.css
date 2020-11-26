@@ -12,7 +12,6 @@ body {
 }
 
 /* Navigation bar style */
-
 .nav__bar {
     display: flex;
     align-items: center;
@@ -94,32 +93,26 @@ body {
 
 /* section1 ________________________CSS */
 .section_1 {
-    /* border: 1px solid black; */
     margin-top: 150px;
 }
 
 .top_heading {
-    /* border: 1px solid black; */
     height: 400px;
     width: 550px;
     float: left;
     margin-left: 100px;
-    ;
 }
 
 .section_1_image {
     height: 400px;
     width: 600px;
-    /* background-color: black; */
     margin-left: 150px;
 }
 
 .heading_size {
     font-size: 40px;
-
     margin-bottom: 40px;
     color: rgb(13, 101, 104);
-
 }
 
 .sub_heading {
@@ -145,7 +138,6 @@ body {
 
 
 /* section1 ________________________CSS */
-
 .container {
     display: flex;
     justify-content: center;
@@ -154,8 +146,6 @@ body {
     width: 100%;
     color: rgb(92, 92, 92);
     font-size: 14px;
-
-    /* font-family: 'Noto Serif JP', serif; */
 }
 
 .heading {
@@ -166,7 +156,6 @@ body {
 
 .animated_image_size>div {
     float: left;
-    /* padding: fit-content;  */
 }
 
 .animated_image {
@@ -194,7 +183,6 @@ body {
     background-color: rgb(13, 101, 104);
     border: none;
     border-radius: 5px;
-    /* width: 150px; */
     text-align: center;
     color: white;
     cursor: pointer;
@@ -208,7 +196,6 @@ body {
 .text_below_submit a {
     color: rgb(13, 101, 104);
 }
-
 
 /* Membership Section*/
 .membership {
@@ -254,7 +241,6 @@ body {
     border: 1px solid rgb(13, 101, 104);
     border-radius: 5px;
     margin-left: 20px;
-
 }
 
 .membership__card h3 {
@@ -359,7 +345,6 @@ body {
 
 .Brightline_Member {
     margin-left: 300px;
-
 }
 
 /* section5_______________________5 */
@@ -372,15 +357,12 @@ body {
 .section_5_image_1 {
     height: 300px;
     width: 500px;
-
-
 }
 
 .section_5_image_2 {
     height: 500px;
     width: 350px;
     margin-left: 150px;
-
 }
 
 .section_5_box {
@@ -413,7 +395,6 @@ body {
 }
 
 /* section_6_______________section_6  */
-
 .section_6_heading {
     text-align: center;
     font-size: 40px;
@@ -425,7 +406,6 @@ body {
 }
 
 .section_6_text {
-
     height: 150px;
     width: 200px;
     float: left;
@@ -591,7 +571,6 @@ body {
 .brighter__days__cards img {
     width: 280px;
     height: 280px;
-
 }
 
 .brighter__days p {
@@ -608,7 +587,7 @@ body {
 /* footer section */
 footer {
     width: 100%;
-    background-color: rgb(35, 36, 56);
+    background-color: #2c333f;
     padding: 70px;
     display: flex;
     color: white;
@@ -661,8 +640,7 @@ footer {
     font-size: 16px;
     line-height: 20px;
     margin: 10px 10px 20px 0;
-    font-family: 'Tinos',
-        serif;
+    font-family: 'Tinos', serif;
     color: rgb(226, 226, 226);
 }
 
@@ -722,8 +700,6 @@ footer {
 .brighter__days p a {
     color: rgb(13, 101, 104);
 }
-
-
 
 /* animations */
 .nav__links--to--skyblue--color:hover {
