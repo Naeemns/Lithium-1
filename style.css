@@ -12,7 +12,6 @@ body {
 }
 
 /* Navigation bar style */
-
 .nav__bar {
     display: flex;
     align-items: center;
@@ -46,13 +45,16 @@ body {
 }
 
 .nav__links {
-    flex: 3 1 100px;
+    flex: 2 1 50px;
+    margin: 0 10px;
 }
 
 .nav__links ul {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
     list-style: none;
+    margin: 0 5px;
 }
 
 /* .nav__links li {
@@ -95,41 +97,34 @@ body {
     background-color: rgb(255, 123, 0);
     color: white;
     border: none;
-}
-
-/*Services Section*/
-.services {
-    margin-top: 150px;
+    cursor: pointer;
 }
 
 /* section1 ________________________CSS */
 .section_1 {
-    /* border: 1px solid black; */
+    width: 85%;
+    margin: auto;
     margin-top: 150px;
 }
 
 .top_heading {
-    /* border: 1px solid black; */
     height: 400px;
     width: 550px;
     float: left;
-    margin-left: 100px;
-    ;
+    /* margin-left: 100px; */
 }
 
 .section_1_image {
     height: 400px;
     width: 600px;
-    /* background-color: black; */
-    margin-left: 150px;
+    margin-left: 70px;
+    margin-top: 50px;
 }
 
 .heading_size {
     font-size: 40px;
-
     margin-bottom: 40px;
     color: rgb(13, 101, 104);
-
 }
 
 .sub_heading {
@@ -146,26 +141,24 @@ body {
     background-color: rgb(255, 123, 0);
     margin-top: 30px;
     border: none;
+    cursor: pointer;
 }
 
 .below_sub_heading {
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 7.5%;
+    margin-top: 100px;
 }
 
 
-/* section1 ________________________CSS */
-
+/* section2 ________________________CSS */
 .container {
-    display: flex;
-    justify-content: center;
+
     height: 100%;
     align-items: center;
-    width: 100%;
+    width: 85%;
+    margin: auto;
     color: rgb(92, 92, 92);
     font-size: 14px;
-
-    /* font-family: 'Noto Serif JP', serif; */
 }
 
 .heading {
@@ -174,9 +167,10 @@ body {
     color: rgb(63, 63, 63);
 }
 
-.animated_image_size>div {
-    float: left;
-    /* padding: fit-content;  */
+.animated_image_size {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .animated_image {
@@ -204,7 +198,6 @@ body {
     background-color: rgb(13, 101, 104);
     border: none;
     border-radius: 5px;
-    /* width: 150px; */
     text-align: center;
     color: white;
     cursor: pointer;
@@ -218,7 +211,6 @@ body {
 .text_below_submit a {
     color: rgb(13, 101, 104);
 }
-
 
 /* Membership Section*/
 .membership {
@@ -264,7 +256,6 @@ body {
     border: 1px solid rgb(13, 101, 104);
     border-radius: 5px;
     margin-left: 20px;
-
 }
 
 .membership__card h3 {
@@ -352,8 +343,10 @@ body {
 
 /* .section_4_________________section4 */
 .url_image {
-    margin-left: 150px;
+    width: 85%;
+    margin: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .company_name {
@@ -361,15 +354,14 @@ body {
 }
 
 .text_under_url_image {
-    width: 1000px;
+    width: 65%;
     font-size: 40px;
-    margin-left: 300px;
+    margin: auto;
     color: rgb(18, 124, 128);
 }
 
 .Brightline_Member {
-    margin-left: 300px;
-
+    margin-left: 17.5%;
 }
 
 /* section5_______________________5 */
@@ -382,20 +374,22 @@ body {
 .section_5_image_1 {
     height: 300px;
     width: 500px;
-
-
+    margin-left: 20px;
 }
 
 .section_5_image_2 {
     height: 500px;
     width: 350px;
     margin-left: 150px;
-
+    margin-top: 70px;
 }
 
 .section_5_box {
+    width: 85%;
     display: flex;
-    margin-left: 250px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin-top: 40px;
 }
 
@@ -407,23 +401,29 @@ body {
 .section_5_image_1_text {
     font-size: 25px;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 .join_now {
+    display: flex;
+    justify-content: center;
+}
+
+.join_now button {
     padding: 20px;
     height: 60px;
     background-color: rgb(18, 124, 128);
     width: 130px;
-    margin: 30px 0px 30px 700px;
+    margin: 30px 0px 30px 30px;
     border: none;
     color: white;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+
 }
 
 /* section_6_______________section_6  */
-
 .section_6_heading {
     text-align: center;
     font-size: 40px;
@@ -435,7 +435,6 @@ body {
 }
 
 .section_6_text {
-
     height: 150px;
     width: 200px;
     float: left;
@@ -549,6 +548,7 @@ body {
 
 .near__you__details {
     display: flex;
+    flex-wrap: wrap;
     width: 480px;
     justify-content: space-between;
     align-items: center;
@@ -601,7 +601,6 @@ body {
 .brighter__days__cards img {
     width: 280px;
     height: 280px;
-
 }
 
 .brighter__days p {
@@ -618,9 +617,10 @@ body {
 /* footer section */
 footer {
     width: 100%;
-    background-color: rgb(35, 36, 56);
+    background-color: #2c333f;
     padding: 70px;
     display: flex;
+    flex-wrap: wrap;
     color: white;
 }
 
@@ -636,7 +636,7 @@ footer {
 }
 
 .footer__left__form form input {
-    width: 500px;
+    width: 70%;
     padding: 10px;
     margin: 15px 0;
 }
@@ -671,8 +671,7 @@ footer {
     font-size: 16px;
     line-height: 20px;
     margin: 10px 10px 20px 0;
-    font-family: 'Tinos',
-        serif;
+    font-family: 'Tinos', serif;
     color: rgb(226, 226, 226);
 }
 
@@ -733,8 +732,6 @@ footer {
     color: rgb(13, 101, 104);
 }
 
-
-
 /* animations */
 .nav__links--to--skyblue--color:hover {
     color: rgb(17, 133, 228);
@@ -775,4 +772,67 @@ footer {
 .how__it__works__text button:hover {
     background-color: rgb(18, 124, 128);
     transition: 0.1s ease-in-out;
+}
+
+/* media queries */
+@media screen and (min-width: 300px) and (max-width: 767px) {
+
+    .heading_size {
+        font-size: 35px;
+    }
+
+    .sub_heading {
+        font-size: 21px;
+    }
+
+    /* .nav__links,
+    .nav__buttons {
+        display: none;
+    } */
+
+    .section_5_image_2 {
+        margin-left: 70px;
+    }
+
+    .text_under_url_image {
+        font-size: 25px;
+    }
+
+    .section_1_image {
+        height: 50%;
+        width: 70%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .heading_size {
+        font-size: 25px;
+    }
+
+    .sub_heading {
+        font-size: 18px;
+    }
+
+    .section_5_image_2 {
+        margin-left: 70px;
+    }
+
+    .text_under_url_image {
+        font-size: 30px;
+    }
+
+    .section_1_image {
+        height: 50%;
+        width: 70%;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width:280px) and (max-width:900px) {
+
+    .nav__links,
+    .nav__buttons {
+        display: none;
+    }
 }
